@@ -1,4 +1,4 @@
-## Privilege Escalation: Capabilities Abuse
+## Privilege Escalation: Capabilities
 > TryHackMe의 "Linux Privilege Escalation: Capabilities" 실습을 기반으로, `vim` 바이너리에 Capabilities가 부여되어 있는 점을 악용하여 루트 권한 획득 및 플래그 탈취에 성공하였다.
 
 ---
