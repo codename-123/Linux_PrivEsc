@@ -1,4 +1,4 @@
-## Privilege Escalation: SUID Binary Exploitation
+## Privilege Escalation: SUID 
 > TryHackMe의 "Privilege Escalation: SUID" 실습을 기반으로, SUID가 설정된 바이너리 중 `base64` 명령어를 활용해 `/etc/shadow` 파일을 읽고 사용자 계정 정보를 탈취한 후, 계정 크랙과 전환을 통해 플래그를 획득하는 과정을 수행하였다.
 
 ---
