@@ -24,7 +24,7 @@ ssh karen@10.10.112.198
 
 - `/etc/exports` 파일을 열어보니 NFS로 공유된 디렉토리(`/home/backup`, `/tmp`, `/home/ubuntu/sharedfolder`)가 `no_root_squash` 옵션과 함께 외부에 전체 공개되어 있는 것을 확인하였다.
 
-![NFS 설정 확인](/screenshots/exports_nfs.png)
+![NFS 설정 확인](./screenshots/exports_nfs.png)
 
 ---
 
