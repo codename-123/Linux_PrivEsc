@@ -1,4 +1,4 @@
-## Privilege Escalation: PATH Environment Variable Abuse
+## Privilege Escalation: PATH
 > TryHackMe의 "Linux Privilege Escalation: PATH" 실습을 기반으로, 환경 변수 PATH를 악용하여 실행 파일 대체 공격을 수행하고 루트 권한을 획득한 과정을 정리하였다.
 
 ---
