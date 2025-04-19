@@ -8,7 +8,7 @@
 - **공격 머신**: Kali Linux
 - **사용 계정**: `leonard:Penny123`
 - **공격 방식**: CVE-2021-4034 (Polkit pkexec Local Privilege Escalation)
-- **실습 일자**: 2025-04-19
+- **실습 일자**: 2025-04-20
 
 ---
 
