@@ -112,7 +112,7 @@ cat /home/root/flag/flag2.txt
 
 ## 📁 부록: Exploit 파일 정보
 
-- `/exploit/exploit.py`: 실습 환경에 맞춰 수정된 CVE-2021-4034 Python Exploit 스크립트입니다.
+- `/exploit.py`: 실습 환경에 맞춰 수정된 CVE-2021-4034 Python Exploit 스크립트입니다.
   - 수정사항: shebang을 `python3` → `python`으로 변경하여 대상 머신에서 실행 가능하도록 조정함
   - 원본 출처: [CVE-2021-4034 Python Exploit (GitHub)](https://github.com/joeammond/CVE-2021-4034/blob/main/CVE-2021-4034.py)
 
